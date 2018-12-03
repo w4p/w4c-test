@@ -33,7 +33,7 @@
                   'assets/testdata/9.jpg',
                   'assets/testdata/10.jpg'
         ]);
-        var maskPromise = w4collage.mask('assets/mask/2.jpg');
+        var maskPromise = w4collage.mask('assets/mask/2.png');
         Promise.all([loadPromise, maskPromise]).then(function() {
             w4collage.make({size: 30, type: 1, useRotate:true});
         });
