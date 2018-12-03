@@ -23,15 +23,15 @@
         });
         var loadPromise = w4collage.load([
                     //'https://media.koreus.com/201504/135-insolite-01.jpg',
-                   '/assets/testdata/2.jpg',
-                  '/assets/testdata/3.jpg',
-                  '/assets/testdata/4.jpg',
-                  '/assets/testdata/5.jpg',
-                  '/assets/testdata/6.jpg',
-                  '/assets/testdata/7.jpg',
-                  '/assets/testdata/8.jpg',
-                  '/assets/testdata/9.jpg',
-                  '/assets/testdata/10.jpg'
+                   'assets/testdata/2.jpg',
+                  'assets/testdata/3.jpg',
+                  'assets/testdata/4.jpg',
+                  'assets/testdata/5.jpg',
+                  'assets/testdata/6.jpg',
+                  'assets/testdata/7.jpg',
+                  'assets/testdata/8.jpg',
+                  'assets/testdata/9.jpg',
+                  'assets/testdata/10.jpg'
         ]);
         var maskPromise = w4collage.mask('assets/mask/2.jpg');
         Promise.all([loadPromise, maskPromise]).then(function() {
